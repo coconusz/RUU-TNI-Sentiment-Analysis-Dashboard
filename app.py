@@ -145,7 +145,7 @@ elif menu == "📈 Evaluasi Model":
 
     # Tampilkan gambar confusion matrix yang sudah ada
     st.subheader("Confusion Matrix")
-    st.image("confusion_matrix.png", caption="Confusion Matrix", use_column_width=True)
+    st.image("confusion_matrix.png", caption="Confusion Matrix", use_container_width=True)
 
     st.subheader("Interpretasi Confusion Matrix")
     st.markdown("""
